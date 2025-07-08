@@ -6,9 +6,14 @@ import { Carta } from "./Carta";
 const Home = () => {
 	return (
 		<>
-		<Navbar></Navbar>
-		<Jumbotron></Jumbotron>
-		<Carta></Carta>
+			<Navbar/>
+			<Jumbotron/>
+			<div className="row">
+				<Carta/>
+				<Carta/>
+				<Carta/>
+				<Carta/>
+			</div>
 		</>
 
 	);
